@@ -46,8 +46,15 @@ body{
     border-width: 2px;
     margin: 30px;
     color: black;
+
+}
+ 
+footer{
+  position: absolute;
+  
+ }
     
-  }
+
   
   .hide{
     display: none;

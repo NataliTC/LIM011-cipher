@@ -3,10 +3,13 @@ const cifrado = document.getElementById('cifrado');
 const descifrado = document.getElementById('descifrado');
 const inputMessage = document.getElementById('inputMessage');
 const inputNumber = document.getElementById('inputNumber');
-// eslint-disable-next-line no-unused-vars
+const root = document.getElementById('root');
+const message = document.getElementById('message');
+const resultado = document.getElementById('resultado');
 const pintame = document.getElementById('pintame');
 const nuevo = document.getElementById('nuevo');
 const salir = document.getElementById('salir');
+/* global cipher */
 
 boton.addEventListener('click', () => {
   root.classList.add('hide');
@@ -17,7 +20,7 @@ cifrado.addEventListener('click', () => {
   message.classList.add('hide');
   resultado.classList.remove('hide');
   const resultado1 = cipher.encode(inputNumber.value, inputMessage.value);
-  document.getElementById('pintame').innerHTML = resultado1;
+  pintame.innerHTML = resultado1;
 });
 
 descifrado.addEventListener('click', () => {
@@ -25,7 +28,7 @@ descifrado.addEventListener('click', () => {
   resultado.classList.remove('hide');
 
   const resultado2 = cipher.decode(inputNumber.value, inputMessage.value);
-  document.getElementById('pintame').innerHTML = resultado2;
+  pintame.innerHTML = resultado2;
 });
 
 nuevo.addEventListener('click', () => {

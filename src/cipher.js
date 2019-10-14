@@ -5,7 +5,7 @@ window.cipher = {
     let newMessage = ''; // CAPTURA LA PALABRA CIFRADA
     // INICIO DE RECORRIDO DE CARACTERES
     for (let i = 0; i < string.length; i += 1) {
-      let numeroAcsi = string.charCodeAt(i);
+      const numeroAcsi = string.charCodeAt(i);
       let miCifra; // POSICION EN EL CODIGO ASCCI
       let nuevaCifra; // CAPTURA LA LETRA RECORRIENDO EL ASCCI
       //  console.log(numeroAcsi);
@@ -23,7 +23,7 @@ window.cipher = {
     // Mensaje para el descifrado
     let newDescifrado = ''; // CAPTURA LA PALABRA A DESCIFRAR
     for (let i = 0; i < string.length; i += 1) {
-      let numeroAcsi = string.charCodeAt(i);
+      const numeroAcsi = string.charCodeAt(i);
       // POSICION EN EL CODIGO ASCCI
       let miCifra;
       let nuevaCifra; // CAPTURA LA LETRA RECORRIENDO EL ASCCI
