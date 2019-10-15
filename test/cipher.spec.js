@@ -14,7 +14,6 @@ describe('cipher', () => {
     });
     // Hacker edition
     /* global cipher */
-    //
     // [Español]
     // Si decides agregar soporte para minúsculas descomenta el test a
     // continuación.
