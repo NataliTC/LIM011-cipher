@@ -16,7 +16,7 @@
 Top Secret es una página para cifrar y descifrar mensajes secretos, la clave para el cifrado solo lo sabrá los involucrados.
 
 ## 2. Imagen Final del Proyecto
-
+![imagen-final](imagenes/README2.jpg)
 
 ## 4. Consideraciones generales
 
