@@ -10,7 +10,7 @@ describe('cipher', () => {
       expect(typeof cipher.encode).toBe('function');
     });
     it('debería retornar "HIJKLMNOPQR" para "ABCDEFGHIJK" con offset 33', () => {
-      expect(cipher.encode('ABCDEFGHIJK', 33)).toBe('HIJKLMNOPQR');
+      expect(cipher.encode(33, 'ABCDEFGHIJK')).toBe('HIJKLMNOPQR');
     });
     // Hacker edition
     /* global cipher */
@@ -23,7 +23,6 @@ describe('cipher', () => {
     // it('debería retornar "hijklmnopqrstuvwxyzabcdefg" para "abcdefghijklmnopqrstuvwxyz" with offset 33', () => {
     //   expect(cipher.encode(33, 'abcdefghijklmnopqrstuvwxyz')).toBe('hijklmnopqrstuvwxyzabcdefg');
     // });
-
     // Hacker edition
     //
     // [Español]
@@ -40,7 +39,7 @@ describe('cipher', () => {
       expect(typeof cipher.decode).toBe('function');
     });
     it('debería retornar "ABCDEFGHIJK" para "HIJKLMNOPQR" con offset 33', () => {
-      expect(typeof cipher.decode('ABCDEFGHIJK', 33)).toBe('HIJKLMNOPQR');
+      expect(cipher.decode(33, 'HIJKLMNOPQR')).toBe('ABCDEFGHIJK');
     });
     //
     // Hacker edition

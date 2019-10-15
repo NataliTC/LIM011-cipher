@@ -1,22 +1,31 @@
 body{
     text-align: center;
-    font-family: cursive;
+    width: 60%;
+    padding: 30px;
+    margin: auto;
+    font-family:'Times New Roman';
     font-size: 35px;
-    color: white;
-    background-image: url("https://img-cdn.hipertextual.com/files/2019/03/hipertextual-proteger-tus-archivos-con-su-propia-llave-cifrado-2019590423.jpg?strip=all&lossy=1&quality=57&resize=740%2C490&ssl=1");  
-  }
+    text-shadow: 2px 2px 3px black;
+    color: rgb(255, 255, 255);
+    background-image: url("https://www.chinaperformancegroup.com/wp-content/uploads/2016/11/5.jpg"); 
+
+   }
   
   .title{
     font-size: 70px;
+    text-align: center;
     font-weight: bold;
-    color: white;
+    text-shadow: 4px 3px 2px black;
+    color: rgb(255, 186, 36);
 
   }
   
   .input-number{
     height: 35px;
+    text-align: center;
     width: 40px;
     border-width: 1px;
+    border-radius: 5px;
   }
 
   .box-mensaje-style{
@@ -24,6 +33,7 @@ body{
     height: 200px;
     width: 450px;
     border-width: 2px;
+    border-radius: 5px;
     
   }
 
@@ -33,29 +43,31 @@ body{
     font-weight: bold;
     height: 38px;
     border-width: 1px;
+    border-radius: 5px;
     margin: 5px;
-    background-color: rgb(71, 236, 65);
+    background-color: rgb(255, 186, 36);
     
 
   }
   
    .pintame{
-    background: rgb(61, 185, 61);
-    width: 550px;
-    height: 200px;
+    background:  #fafaf9;
+    width: 450px;
+    height: 300px;
     border-width: 2px;
-    margin: 30px;
+    border-radius: 5px;
+    margin: 5px auto;
     color: black;
 
 }
  
 footer{
-  position: absolute;
+  text-align: center;
+  line-height: 400px;
   
+ 
  }
     
-
-  
   .hide{
     display: none;
 
