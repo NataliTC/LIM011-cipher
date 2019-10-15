@@ -7,7 +7,6 @@
 * [3. Investigación UX](#3-investigación-ux)
 * [4. Enlace Deploy](#4-enlace-deploy)
 
-
 ***
 
 ## 1. Resumen del proyecto
