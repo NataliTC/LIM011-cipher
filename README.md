@@ -1,9 +1,9 @@
-# pROJECT: TOP SECRET
+# TOP SECRET
 
 ## Índice
 
 * [1. Resumen del proyecto](#1-resumen-del-proyecto)
-* [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
+* [2. Imagen Final del Proyecto](#2-imagen-final-del-proyecto)
 * [4. Consideraciones generales](#4-consideraciones-generales)
 * [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
 * [6. Hacker Edition](#6-hacker-edition)
@@ -15,7 +15,8 @@
 
 Top Secret es una página para cifrar y descifrar mensajes secretos, la clave para el cifrado solo lo sabrá los involucrados.
 
-## 3. Objetivos de aprendizaje
+## 2. Imagen Final del Proyecto
+
 
 ## 4. Consideraciones generales
 
