@@ -1,9 +1,8 @@
-# Cifrado César
+# pROJECT: TOP SECRET
 
 ## Índice
 
-* [1. Preámbulo](#1-preámbulo)
-* [2. Resumen del proyecto](#2-resumen-del-proyecto)
+* [1. Resumen del proyecto](#1-resumen-del-proyecto)
 * [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
 * [4. Consideraciones generales](#4-consideraciones-generales)
 * [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
@@ -12,123 +11,19 @@
 
 ***
 
-## 1. Preámbulo
+## 1. Resumen del proyecto
 
-Cifrar significa codificar. El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher)
-es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio
-César lo usaba para enviar órdenes secretas a sus generales en los campos de
-batalla.
-
-![caeser-cipher](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Caesar3.svg/2000px-Caesar3.svg.png)
-
-El cifrado césar es una de las técnicas más simples para cifrar un mensaje. Es
-un tipo de cifrado por sustitución, es decir que cada letra del texto original
-es reemplazada por otra que se encuentra un número fijo de posiciones
-(desplazamiento) más adelante en el mismo alfabeto.
-
-Por ejemplo, si usamos un desplazamiento (_offset_) de 3 posiciones:
-
-* La letra A se cifra como D.
-* La palabra CASA se cifra como FDVD.
-* Alfabeto sin cifrar: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-* Alfabeto cifrado: D E F G H I J K L M N O P Q R S T U V W X Y Z A B C
-
-En la actualidad, todos los cifrados de sustitución simple se descifran con
-mucha facilidad y, aunque en la práctica no ofrecen mucha seguridad en la
-comunicación por sí mismos; el cifrado César sí puede formar parte de sistemas
-más complejos de codificación, como el cifrado Vigenère, e incluso tiene
-aplicación en el sistema ROT13.
-
-## 2. Resumen del proyecto
-
-¿Qué tengo que hacer exactamente? En este proyecto crearás la primera aplicación
-web del _bootcamp_. Servirá para que el usuario pueda cifrar y descifrar un
-texto indicando un desplazamiento específico de caracteres (_offset_).
-
-La temática es libre. Tú debes pensar en qué situaciones de la vida real se
-necesitaría cifrar un mensaje y pensar en cómo debe ser esa experiencia de uso
-(qué pantallas, explicaciones, mensajes, colores, ¿marca?) etc. Algunas ideas de
-ejemplo:
-
-* Crear claves seguras para el email.
-* Encriptar/cifrar una tarjeta de crédito.
-* Herramienta de mensajería interna de una organización de derechos humanos en
-  una zona de conflicto.
-* Mensajería secreta para parejas.
+Top Secret es una página para cifrar y descifrar mensajes secretos, la clave para el cifrado solo lo sabrá los involucrados.
 
 ## 3. Objetivos de aprendizaje
 
-El objetivo principal de aprendizaje es adquirir experiencia desarrollando
-aplicaciones web (WebApp) que interactúen con el usuario a través del navegador
-y la lógica, utilizando HTML5, CCS3 y JavaScript como herramientas.
-
-Dicho en palabras sencillas, aprenderás a:
-
-* Organizar tu tiempo y priorizar tareas en un entorno de **alta incertidumbre**.
-* Entender las **necesidades del usuario** y cómo proponer una solución para él.
-* Entender la importancia del proceso de prototipado durante la creación de un
-  proyecto digital.
-* Conocer los principios básicos del diseño visual.
-* Utilizar etiquetas semánticas  de HTML5 y elementos de formulario.
-* Utilizar diversos tipos de selectores en CSS: de elemento, de clase, de id,
-  etc.
-* Utilizar el modelo de cajas (border, margin, padding)
-* Definir reglas de estilos en CSS.
-* Utilizar eventos del DOM que le permitan al usuario interactuar con la
-  aplicación.
-* Utilizar los métodos de selección del DOM.
-* Actualizar de manera dinámica el contenido de la aplicación a través de
-  innerHTML o textContent.
-* Manipular _**strings**_ (cadenas de texto).
-* Usar **control de flujo if-else, do-while** (bucles y condicionales).
-* _Implementar funciones_ dada una descripción de su comportamiento.
-* Verificar que tus funciones hagan las cosas para las que fueron creadas
-(**pruebas unitarias (_test_) con Jest**).
-* Configurar tu cuenta de _git_.
-* _Forkear_ y _clonar_ el repositorio del proyecto.
-* Mantener actualizado los cambios en tu repositorio remoto (_ commit_, _pull_,
-  _push_).
-* Desplegar tu proyecto en _gh-pages_.
-
 ## 4. Consideraciones generales
 
-* Este proyecto se debe resolver de manera individual.
-* El proyecto será entregado subiendo tu código a GitHub (commit/push) y la
-  interfaz será desplegada usando GitHub pages. Si no sabes lo que es GitHub, no
-  te preocupes, lo aprenderás durante este proyecto.
-* Tiempo para completarlo: Toma como referencia 2 semanas. Trabaja durante el
-  primer Sprint (una semana) y al final, trata de fijar un estimado de cuándo lo
-  terminarás.
-
-## 5. Criterios de aceptación mínimos del proyecto
-
-Usa este alfabeto simple (solamente mayúsculas y sin ñ).
-
-* A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-
-La interfaz debe permitir al usuario:
-
-* Elegir un desplazamiento (_offset_) indicando cuántas posiciones queremos que
-  el cifrado desplace cada caracter.
-* Insertar un mensaje (texto) que queremos cifrar.
-* Ver el resultado del mensaje cifrado.
-* Insertar un mensaje (texto) a descifrar.
-* Ver el resultado del mensaje descifrado.
 
 ### Scripts / Archivos
 
 #### UX (Diseño de experiencia de usuario)
 
-Antes de iniciar a codear, debes entender el problema que quieres solucionar y
-cómo tu aplicación lo soluciona.
-
-* Trabaja tu primer prototipo con papel y lápiz (blanco y negro).
-* Luego valida esta solución con una compañera (pedir feedback).
-* Toma lo aprendido al momento de validar tu primer prototipo y desarrolla un
-  nuevo prototipo usando alguna herramienta para diseño de prototipos
-  ([Balsamiq](https://balsamiq.com/), [Figma](https://www.figma.com/),
-  [Google Slides](https://www.google.com/intl/es/slides/about/), etc.)
-Estos puntos los presentarás en el `README.md`.
 
 **`README.md`**:
 
