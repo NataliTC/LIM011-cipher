@@ -21,14 +21,19 @@ Top Secret es una página para cifrar y descifrar mensajes secretos, la clave pa
 ## 3. Investigación UX
  
  * TOP SECRET está dirigido a usuarios que se dedican a la investigación privada: Detectives y la Fuerza Armada de Inteligencia. El objetivo del sistema es codificar y mantener en secreto los mensajes enviados entre los involucrados.
+ 
 * Debido a que los detectives y la Fuerza armada necesitan enviar mensajes de suma importancia, este sistema se encargará de codificar y decodificar los textos, solo tendrán que tener en cuenta en número de desplazamiento para ambos casos, ya que servirá para saber el contenido del mensaje por ambas partes.
-* Primer prototipo en papel.
+
+* Primer prototipo en papel
 ![imagen-papel]( imagenes/bocetoPhoto.jpg)
+
 * Agregar un resumen del feedback recibido indicando las mejoras a realizar.
 En el primer feedback me recomendaron que cambiara la primera parte: Nickname y Clave, ya que no tenía un funcionamiento específico. Asimismo, en la segunda vista me sugirieron en vez de la palabra OFFSET se cambie por una palabra o frase que el usuario pueda entender.
 Luego realicé una primera maqueta en FIGMA, y el después del segundo feedback me recomendaron que cambar la posición del box de desplazamiento y el tema de los colores oscuros por uno más llamativo.
+
 * Imagen de la maqueta FIGMA.
 ![imagen-figma]( imagenes/README1.jpg)
+
 * Imagen del prototipo final.
 ![imagen-papel](imagenes/README2.jpg)
 
