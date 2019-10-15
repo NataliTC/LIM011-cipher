@@ -5,9 +5,6 @@
 * [1. Resumen del proyecto](#1-resumen-del-proyecto)
 * [2. Imagen Final del Proyecto](#2-imagen-final-del-proyecto)
 * [3. Investigación UX](#3-investigación-ux)
-* [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
-* [6. Hacker Edition](#6-hacker-edition)
-* [7. Pistas, tips y lecturas complementarias](#6-pistas-tips-y-lecturas-complementarias)
 
 ***
 
