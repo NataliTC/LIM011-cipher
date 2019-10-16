@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>TOP SECRET</title>
+    
+  </head>
+
+  <body>
+    <div id="root" >
+      <p class="title">Bienvenido a Top Secret</p>
+      Antes de escribir tu mensaje, ingresa un número que indicará 
+      cuántas posiciones quieres que el cifrado desplace cada caracter.
+      ¿Ya tienes el número?
+      
+       <p><button type="button" id="boton" class="btn">Sí</button>
+       </p>
+
+    </div>
+
+    <div id="message" class="hide">
+     <p>Mensaje:</p>
+    
+     <textarea id="inputMessage" class="box-mensaje-style" placeholder="Ingrese su mensaje..."></textarea> 
+    
+     <br>
+     <p class="desplazamiento">Indicar número de desplazamiento:
+      <input type="text" name="" value="" id="inputNumber" class="input-number"> </p>
+      
+      <button type="button" id="cifrado" class="btn">Cifrar</button>
+      <button type="button" id="descifrado" class="btn">Descifrar</button>
+
+    </div>
+
+
+    <div id="resultado" class="hide">
+    <p>Tu mensaje es:</p>
+  
+    <div id="pintame" class="pintame"></div>
+      <button type="button" id="nuevo" class="btn">Mensaje Nuevo</button>
+      <button type="button" id="salir" class="btn">Salir</button>
+
+    </div>
+
+    <script src="cipher.js"></script>
+    <script src="index.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+  </body>
+
+  <footer> © 2019 Copyright: Natalí Tauma Caja </footer>
+</html>
